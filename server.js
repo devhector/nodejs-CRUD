@@ -107,7 +107,7 @@ router.route('/products/:product_id')
 
         });
 
-    })
+    }) 
 
     .delete((req, res) => {
         Product.remove({
